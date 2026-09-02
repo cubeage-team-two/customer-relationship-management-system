@@ -15,6 +15,7 @@ class RoutePath {
   static LOGIN = "/login";
   static SIGNUP = "/signup";
   static FORGOT_PASSWORD = "/forgot-password";
+  static VERIFY_EMAIL = "/verify-email";
 
   // ======================================================
   // ROLE DASHBOARDS
@@ -74,6 +75,7 @@ class RoutePath {
   // ======================================================
 
   static CAMPAIGNS = "/campaigns";
+  static EDIT_CAMPAIGN = "/campaigns/:id";
 
   // ======================================================
   // FINANCE / APPROVALS
